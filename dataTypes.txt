@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript Programming</title>
+    </head>
+    <body>
+        <script>
+            //Number Data Type
+            var length=15;
+            let weight=7.5;
+
+            //String Data Type
+            var color="Green";
+            const name="Md. Nur Alam";
+
+            //Boolean Data Type
+            let x=true;
+            let y=false;
+
+            //Object Data Type
+            const person= {firstName: "Md. Nur", lastName: "Alam"};
+
+            //Array Object Data Type
+            const cars= ["volvo", "BMW", "tesla"];
+
+            document.write(length);
+            document.write(color);
+            document.write(x);
+            console.log(typeof("Md. Nur Alam"));
+            document.write(cars);
+            document.write(person.firstName+" "+person.lastName);
+        </script>
+    </body>
+</html>

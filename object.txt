@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript Programming</title>
+    </head>
+    <body>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <script>
+            //Create an object
+            const car={type: "Allion", model: "500", color: "white"};
+
+            //Display some data from the object
+            document.write("The car type is: "+car.type+"The car color is: "+car.color);
+
+            const person={
+                firstName: "Md. Nur",
+                lastName: "Alam",
+                age: "27",
+                weight: "70 kg",
+            };
+            document.getElementById("demo").innerHTML="Name: "+person.lastName+"Age: "+person.age;
+
+            //Another way of accessing object properties
+            document.getElementById("demo1").innerHTML="Name: "+person["lastName"]+"Age: "+person["age"];
+
+            //Object Methods
+            const cars={
+                firstName: "BMW",
+                lastName: "Corolla",
+                color: "white",
+                model: "700",
+
+                fullName: function(){
+                    return "Cars name: " +this.firstName+" "+this.lastName;
+                }
+            };
+            document.write(cars.fullName());
+        </script>
+    </body>
+</html>

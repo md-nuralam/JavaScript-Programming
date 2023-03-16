@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript Programming</title>
+    </head>
+    <body>
+        <button type="button" onclick="document.write(2+2)">Button</button>
+        <button onclick="window.print()">Print this page</button>
+        <script>
+
+            alert("Hello World!");
+            alert(100);
+            window.alert(5+5);
+            document.write("My name is Md. Nur Alam Polash");
+            console.log("I love programming");
+            document.write(5+6);
+
+        </script>
+    </body>
+</html>

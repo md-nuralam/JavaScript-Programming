@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript Programming</title>
+    </head>
+    <body>
+        <h3 id="demo"></h3>
+        <script>
+            var x=10;
+            var y=20;
+            var z=x+y;
+            var k=y-x;
+            let m=10;
+            const pi=3.1416;
+            document.write(z);
+            document.write(k);
+            document.write(m);
+            document.write(pi);
+            document.getElementById("demo").innerHTML=z+k;
+        </script>
+    </body>
+</html>

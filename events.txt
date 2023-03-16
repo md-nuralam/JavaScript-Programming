@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript Programming</title>
+    </head>
+    <body>
+        <button onclick="document.getElementById('demo').innerHTML=Date()">Button</button>
+        <p id="demo"></p>
+        <button onclick="this.innerHTML=Date()">The time is?</button>
+        <button onclick="displayDate()">The time is?</button>
+        <p id="demo1"></p>
+        <script>
+            function displayDate(){
+                document.getElementById("demo1").innerHTML=Date();
+            }
+        </script>
+    </body>
+</html>

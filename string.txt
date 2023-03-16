@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript Programming</title>
+    </head>
+    <body>
+        <p id="demo"></p>
+        <script>
+            let text="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            let text1="We love \"Bangladesh\" from the bottom of our hearts";
+            let text2="It\'s Alright";
+            let text3="The character \\ is called backslash";
+
+            document.getElementById("demo").innerHTML=text.length;
+            document.write(text1);
+            document.write(text2);
+            document.write(text3);
+
+            //String Methods
+            let text4="Apple, Banana, Mango";
+            let part=text4.slice(7, 13);
+            document.write(part);
+
+            let text5="Please visit Microsoft";
+            let newText5=text5.replace("Microsoft","W3Schools");
+            document.write(newText5);
+
+            //Upper/Lower Case
+            let text6="Hello WOrld!";
+            let newText6=text6.toUpperCase();
+            document.write(newText6);
+            let newtext6=text6.toLowerCase();
+            document.write(newtext6);
+
+            //String Concatanation
+            let text7="Hello";
+            let text8="World!";
+            let newText8=text7.concat(" "+text8);
+            document.write(newText8);
+
+            //Property Access
+            let text9="Hello World!";
+            let newText9=text9[1];
+            document.write(newText9);
+
+        </script>
+    </body>
+</html>
